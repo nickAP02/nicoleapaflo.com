@@ -1,0 +1,92 @@
+header h1
+{
+	font-family: raleway bold;
+	font-size: 25px;
+	margin: 0;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#titre-principal{
+
+	font-size: 25px;
+	text-align: center;
+	color: white;	
+}
+#objectif
+{
+	font-size: 35px;
+	font-family: raleway italic;
+}
+#paragraphe1
+{
+	font-family: raleway light;
+	font-size: 25px;
+	text-align: justify-all;
+}
+.button 
+{
+	background-color: #ffffff;
+	width: 90px;
+	height: 50px;
+	color: #fbd1d5;
+	border-radius: 5px;
+}
+.button:hover{
+	background-color: #fbd1d5;
+	color: #ffffff;
+}
+#sem1
+{
+	text-decoration: underline;
+}
+#sem2
+{
+	text-decoration: underline;
+}
+.main
+{
+	padding-left: 30px;
+  	min-width: 75%;
+}
+.footer
+{
+
+}
+#contact-btn a:overflow-wrap{
+	position: relative;
+  	bottom: 25px;
+}
+#contact-btn a{
+	margin-right: 25px;
+  	padding: 2,5rem 25px;
+  	border: 1px solid #204156;
+  	background-color: #FFEE00;
+}
+header{
+ 	margin-bottom: 25px;
+ 	margin-top: 25px;   
+ 	height: 200px;    
+ 	border-radius: 5px;
+ 	box-shadow: 0px 4px 4px #1c1a19;
+ 	padding: 20px 0;
+ 	background-image:url('imageHeader.jpg');
+}
+header .row{
+ 	display: flex;
+ 	align-items: center;
+ 	text-align: center;
+}
+header .col-sm-8{
+	background-color: #FFEE00;
+	font-size: 25px;	
+}
+header nav{
+	display: inline-flex;
+	justify-content: flex-start;
+	margin-bottom: 5px;
+}
+header p
+{
+	padding:0 20px;
+	margin:0;
+}
